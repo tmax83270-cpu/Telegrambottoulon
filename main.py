@@ -136,14 +136,14 @@ INFO
 
 async def send_info(query, context):
 
-texte = """ INFORMATIONS
+texte = """INFORMATIONS
 
-📍 Zone : Toulon & alentours """
+📍 Zone : Toulon & alentours
 
 🕗 Horaires : 8h - 20h
 
 💳 Paiement :
-Carte •Virement • Espèces
+Carte • Virement • Espèces
 
 🚗 Livraison & Meet-up rapide”””
 
