@@ -69,7 +69,7 @@ CLIQUE SUR LA MINI APP POUR AVOIR ACCES AU MENU, INFOS, PROMO ETC  👇👇
 
 /start pour redemarrer le bot 🤖"""
 
-    image_url = "https://raw.githubusercontent.com/tmax83270-cpu/Telegrambottoulon/main/toulondelivery.jpg"
+    
 
     keyboard = [
         [
@@ -82,12 +82,11 @@ CLIQUE SUR LA MINI APP POUR AVOIR ACCES AU MENU, INFOS, PROMO ETC  👇👇
         
     ]
 
-    await context.bot.send_photo(
-        chat_id=chat_id,
-        photo=image_url,
-        caption=texte,
-        reply_markup=InlineKeyboardMarkup(keyboard)
-    )
+    await context.bot.send_message(
+    chat_id=chat_id,
+    text=texte,
+    reply_markup=InlineKeyboardMarkup(keyboard)
+)
 
 # =========================
 # ADMIN PANEL
