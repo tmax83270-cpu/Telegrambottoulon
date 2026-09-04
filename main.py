@@ -9,7 +9,7 @@ from datetime import datetime
 # CONFIG
 # =========================
 
-TOKEN = "8339532089:AAHnTZHjCtzTIqLcdEKXQO3mnz_d2FDBrEs"
+TOKEN = "8864212024:AAFK82p_HitGX2izvONNQKKSM10Mmhs4Ihc"
 ADMIN_ID = 7047054214
 USERS_FILE = "users.json"
 
