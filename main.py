@@ -69,7 +69,7 @@ CLIQUE SUR LA MINI APP POUR AVOIR ACCES AU MENU, INFOS, PROMO ETC  👇👇
 
 /start pour redemarrer le bot 🤖"""
 
-    image_url = "https://raw.githubusercontent.com/tmax83270-cpu/telegram-bot-railway/main/toulondelivery.jpg"
+    image_url = "https://raw.githubusercontent.com/tmax83270-cpu/telegram-bot-railway/main/panamedelivery.jpg"
 
     keyboard = [
         [
