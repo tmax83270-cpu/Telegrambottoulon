@@ -138,7 +138,7 @@ async def send_info(query, context):
 
 texte = """ℹ️ INFORMATIONS
 
-📍 Zone : Toulon & alentours
+📍 Zone : Toulon & alentours"""
 
 🕗 Horaires : 8h - 20h
 
