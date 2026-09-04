@@ -4,20 +4,13 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN = os.getenv("BOT_TOKEN")
 
-if not TOKEN:
-raise RuntimeError(“BOT_TOKEN est absent des variables Railway”)
-
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-await update.message.reply_text(“✅ Bot fonctionne !”)
-
-async def error_handler(update, context):
-print(“ERREUR :”, repr(context.error))
+    await update.message.reply_text("Bot fonctionne !")
 
 app = ApplicationBuilder().token(TOKEN).build()
 
-app.add_handler(CommandHandler(“start”, start))
-app.add_error_handler(error_handler)
+app.add_handler(CommandHandler("start", start))
 
-print(“🤖 Démarrage du bot…”)
+print("Bot en ligne...")
 
 app.run_polling()
