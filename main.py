@@ -57,8 +57,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
     save_user(chat_id)
 
-    texte = """BIENVENUE SUR PANAME DELIVERY 🗼✨
-(Anciennement White Coffee 75)
+    texte = """BIENVENUE SUR TOULON DELIVERY ☀️
+
 
 🔹 Zone : Toulon & Alentours 
 🔹 Horaires : 14h/00h – 7j/7
@@ -69,7 +69,7 @@ CLIQUE SUR LA MINI APP POUR AVOIR ACCES AU MENU, INFOS, PROMO ETC  👇👇
 
 /start pour redemarrer le bot 🤖"""
 
-    image_url = "https://raw.githubusercontent.com/tmax83270-cpu/telegram-bot-railway/main/panamedelivery.jpg"
+    image_url = "https://raw.githubusercontent.com/tmax83270-cpu/telegram-bot-railway/main/toulondelivery.jpg"
 
     keyboard = [
         [
