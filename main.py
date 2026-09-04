@@ -57,15 +57,15 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
     save_user(chat_id)
 
-    texte = """BIENVENUE SUR PANAME DELIVERY 🗼✨
-(Anciennement White Coffee 75)
+    texte = """BIENVENUE SUR PARFUM TOULON 🗼✨
+
 
 🔹 Zone : Paris & Île De France 
-🔹 Horaires : 14h/02h – 7j/7
-🔹 Paiement : Cash uniquement
-🔹 Livraison & Meet-up : Rapide et discret
+🔹 Horaires : 8h-20h – 7j/7
+🔹 Paiement : Carte Virement ou cash 
+🔹 Livraison & Meet-up : Rapide 
 
-CLIQUE SUR LA MINI APP POUR AVOIR ACCES AU MENU, INFOS, PROMO ETC  👇👇
+CLIQUE SUR LA MINI APP POUR AVOIR ACCES AU , INFOS, PROMO ETC  👇👇
 
 /start pour redemarrer le bot 🤖"""
 
@@ -73,8 +73,8 @@ CLIQUE SUR LA MINI APP POUR AVOIR ACCES AU MENU, INFOS, PROMO ETC  👇👇
 
     keyboard = [
         [
-            InlineKeyboardButton("🥔 Canal Potato", url="https://ptdym150.org/joinchat/KvW1uaqXsqcevh_qI-BH8Q"),
-            InlineKeyboardButton("📢 Telegram", url="https://t.me/+GKfz6FwT-hg5NGJk")
+            InlineKeyboardButton("🥔 numero", url="https://"),
+            InlineKeyboardButton("📢 numero2", url="https://")
         ],
         [
             InlineKeyboardButton("🛒 Mini-App", web_app=WebAppInfo(url="https://parfumwhite2.vercel.app/"))
@@ -196,7 +196,7 @@ On vous livre même si vous êtes dans le fond du 77 ou le fond du 78 ✌️"""
 
         texte_contact = """✉️ CONTACT ✉️
 
-📞 🔵 Telegram : @PanameDelivery
+📞 🔵 Telegram : @Parfum92
 
 📞 🟢 WhatsApp : +33758594530"""
 
