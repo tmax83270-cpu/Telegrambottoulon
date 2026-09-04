@@ -62,10 +62,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 🔹 Zone : Paris & Île De France 
 🔹 Horaires : 14h/02h – 7j/7
-🔹 Paiement : Cash uniquement
-🔹 Livraison & Meet-up : Rapide et discret
+🔹 Paiement : par carte 
+🔹 Livraison & Meet-up : Rapide
 
-CLIQUE SUR LA MINI APP POUR AVOIR ACCES AU MENU, INFOS, PROMO ETC  👇👇
+CLIQUE SUR LA MINI APP POUR AVOIR ACCES AU PARFUM, INFOS, PROMO ETC  👇👇
 
 /start pour redemarrer le bot 🤖"""
 
@@ -73,8 +73,8 @@ CLIQUE SUR LA MINI APP POUR AVOIR ACCES AU MENU, INFOS, PROMO ETC  👇👇
 
     keyboard = [
         [
-            InlineKeyboardButton("🥔 Canal Potato", url="https://ptdym150.org/joinchat/KvW1uaqXsqcevh_qI-BH8Q"),
-            InlineKeyboardButton("📢 Telegram", url="https://t.me/+GKfz6FwT-hg5NGJk")
+            InlineKeyboardButton("🥔 Canal ", url="https://ptdym150.org/joinchat/KvW1uaqXsqcevh_qI-BH8Q"),
+            InlineKeyboardButton("📢 site", url="https://t.me/+GKfz6FwT-hg5NGJk")
         ],
         [
             InlineKeyboardButton("🛒 Mini-App", web_app=WebAppInfo(url="https://parfumwhite2.vercel.app/"))
