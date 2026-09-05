@@ -10,7 +10,7 @@ from datetime import datetime
 # =========================
 
 TOKEN = "8864212024:AAG-6cttyivxxIcRTh4g9djZ3upJ6hgdcdY"
-ADMIN_ID = 7047054214
+ADMIN_ID = 8923109411
 USERS_FILE = "users.json"
 
 # =========================
